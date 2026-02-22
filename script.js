@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function getKeys(obj) {
+Object.prototype.getKeys = function (obj) {
 	let arr = Object.keys(obj);
   return arr ;
 }
